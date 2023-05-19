@@ -1,5 +1,5 @@
 # **`Python-MongoDB`** 
-# *`Configuración de la conexión`* 
+## *`Configuración de la conexión`* 
 ### **`Nahuel-DevOne⚡`**
 [![Contact Me](https://img.shields.io/badge/Email-informational?style=for-the-badge&logo=Mail.Ru&logoColor=fff&color=c6362c)](mailto:nahue.developer1@gmail.com)
 [![LinkedId](https://img.shields.io/badge/LinkedIn-informational?style=for-the-badge&logo=linkedin&logoColor=fff&color=0274b3)](https://www.linkedin.com/in/nahuel-developer/)
