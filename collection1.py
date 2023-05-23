@@ -20,10 +20,10 @@ try:
     coleccion = db[MONGO_COLECCION]
       
     coleccion.insert_many([
-    {"nombre_estado": "Alabama", "fundacion": "1819-12-14", "longitud": -86.829534, "latitud": 33.258882},
-    {"nombre_estado": "Florida", "fundacion": "1845-03-03", "longitud": -81.463983, "latitud": 27.756767},
-    {"nombre_estado": "Georgia", "fundacion": "1733-02-12", "longitud": -83.113737, "latitud": 32.329381},
-    {"nombre_estado": "South Carolina", "fundacion": "1776-03-26", "longitud": -80.436374, "latitud": 33.687439}
+    {"nombre": "Fulano", "fecha": "1900-12-30", "long": 48.829534, "lat": 55.258882},
+    {"nombre": "Sultano", "fecha": "1900-12-30", "long": 48.463983, "lat": 55.756767},
+    {"nombre": "Mengano", "fecha": "1900-12-30", "long": 48.113737, "lat": 55.329381},
+    {"nombre": "Montoto", "fecha": "1900-12-30", "long": 48.436374, "lat": 55.687439}
     ])   
         
     cliente.close()

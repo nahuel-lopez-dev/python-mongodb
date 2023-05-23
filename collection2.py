@@ -18,18 +18,18 @@ try:
     cliente=pymongo.MongoClient(MONGO_URL,serverSelectionTimeoutMS=MONGO_TIME_OUT)
     db = cliente[MONGO_BASEDATOS]
     coleccion = db[MONGO_COLECCION]
-        
+
     coleccion.insert_many([
-        {"nombre_estado": "Alabama", "anio": 2000, "cantidad": 4447100},
-        {"nombre_estado": "Alabama", "anio": 2001, "cantidad": 4451493},
-        {"nombre_estado": "Florida", "anio": 2000, "cantidad": 15982378},
-        {"nombre_estado": "Florida", "anio": 2001, "cantidad": 17054000},
-        {"nombre_estado": "Georgia", "anio": 2000, "cantidad": 8186453},
-        {"nombre_estado": "Georgia", "anio": 2001, "cantidad": 8229823},
-        {"nombre_estado": "South Carolina", "anio": 2000, "cantidad": 4012012},
-        {"nombre_estado": "South Carolina", "anio": 2001, "cantidad": 4023438}
-        ])
-    
+        {"nombre": "Fulano", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Fulano", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Sultano", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Sultano", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Mengano", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Mengano", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Montoto", "anio": 1900, "cantidad": 39500999},
+        {"nombre": "Montoto", "anio": 1900, "cantidad": 39500999}
+    ])
+
     cliente.close()
     
 # Error por exceso de tiempo de respuesta    
